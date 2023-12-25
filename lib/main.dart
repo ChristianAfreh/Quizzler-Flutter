@@ -55,9 +55,9 @@ class _QuizPageState extends State<QuizPage> {
         Alert(
             context: context,
             type: AlertType.info,
-            title: "QUESTIONS FINISHED",
+            title: "QUIZ COMPLETED",
             desc:
-                "Questions are finished. Kindly press on the OK button to restart.",
+                "Quiz is completed. Kindly press on the OK button to restart.",
             buttons: [
               DialogButton(
                   onPressed: () => Navigator.pop(context),
